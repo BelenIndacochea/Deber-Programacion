@@ -6,7 +6,7 @@
 
 package ejercicio.pkg10;
 import ejercicio.pkg10.Ejercicio1;
-import java.util.Scanner;
+import java.util.*;
   
 /**
  *
@@ -18,10 +18,36 @@ public class main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       Ejercicio1 ejemplo = new Ejercicio1();
-       int x=0, y=0;
-       ejemplo.ejercicio1(x, y);
+       int x=0, y=0, z=0, resultado=0; 
+       //int []RESULTADO;
+       String S1="", S2="", respuesta="";
+       
+       //EJECUTE UNO POR UNO,   DESCOMENTE PARA EJECUTAR
+       
+      /* Ejercicio1 ejemplo = new Ejercicio1();     
+       resultado = ejemplo.ejercicio1(x, y);
+       System.out.println(resultado);*/
+       
+       /* Ejercicio2 ejemplo=new Ejercicio2();
+        resultado = ejemplo.ejercicio2(x,y);
+        System.out.println(resultado);*/
+       
+       /* Ejercicio3 ejemplo=new Ejercicio3();
+        resultado = ejemplo.ejercicio3(x,y);
+        System.out.println(resultado);*/
+       
+        /*Ejercicio4 ejemplo=new Ejercicio4();
+        respuesta = ejemplo.ejercicio4(S1,S2);
+        System.out.println(respuesta);*/
+        
+        /*Ejercicio5 ejemplo=new Ejercicio5();
+        int RESULTADO []= ejemplo.ejercicio5(x);
+        System.out.println(RESULTADO);  */         //FALTA
+       
+        /*Ejercicio14 ejemplo=new Ejercicio14();
+        int RESULTADO[] = ejemplo.ejercicio14(x,y,z);
+        System.out.println(RESULTADO[z]+""+RESULTADO[z+1]);*/
+        
               
-    }
-    
+    }   
 }
