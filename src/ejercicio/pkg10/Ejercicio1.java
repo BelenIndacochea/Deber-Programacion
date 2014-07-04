@@ -26,14 +26,13 @@ public class Ejercicio1 {
         y = ingreso.nextInt();
         int[] array= new int[255];
         
-
         if(x>y) {  mayor = x;  }
         else    { mayor = y; }
         int i=7, j=6;
         
         if(x<=0||x>=255||y<=0||y>=255)
         {
-            System.out.println("el resultado es: -1");
+            return -1;
         }
         else
         {
@@ -45,11 +44,6 @@ public class Ejercicio1 {
             j=j-2;             
         }
         suma=array[x-1]+array[y-1];
-        for(int k=0; k<=mayor-1;k++)
-        {
-            System.out.println(array[k]);
-        }
-         System.out.println("el resultado es :"+suma);
         }       
         return suma;
     }
