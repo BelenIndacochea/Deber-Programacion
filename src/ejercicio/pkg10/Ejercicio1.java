@@ -16,15 +16,16 @@ public class Ejercicio1 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public int ejercicio1(int x,int y) {
         // TODO code application logic here
-        int x=0, y=0, suma=0, mayor=0 ;
+        int suma=0, mayor=0 ;      
         Scanner ingreso = new Scanner(System.in);
         System.out.print("Ingrese le valor de x : ");
         x = ingreso.nextInt();
         System.out.print("Ingrese le valor de y : ");
         y = ingreso.nextInt();
         int[] array= new int[255];
+        
 
         if(x>y) {  mayor = x;  }
         else    { mayor = y; }
@@ -50,5 +51,6 @@ public class Ejercicio1 {
         }
          System.out.println("el resultado es :"+suma);
         }       
+        return suma;
     }
 }
