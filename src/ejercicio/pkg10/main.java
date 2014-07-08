@@ -48,6 +48,9 @@ public class main {
         int RESULTADO[] = ejemplo.ejercicio14(x,y,z);
         System.out.println(RESULTADO[z]+""+RESULTADO[z+1]);*/
         
+        Ejercicio16 ejemplo=new Ejercicio16();
+        resultado = ejemplo.ejercicio16(x,y,z);
+        System.out.println(resultado);
               
     }   
 }
